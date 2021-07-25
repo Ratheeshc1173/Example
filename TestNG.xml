@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Test Suite">
+	<test name="Functional Testing">
+		<parameter name="deviceName" value="" />
+		<parameter name="platformName" value="" />
+		<parameter name="platformVersion" value="" />
+		<parameter name="udid" value="" />
+		<parameter name="browserName" value="chrome" />
+		<parameter name="browserVersion" value="" />
+		<parameter name="nodeIP" value="" />
+		<parameter name="nodePort" value="" />
+		
+		<classes>
+			
+			<class name="testcase.NewTest"></class>
+						
+		 
+		</classes>
+		
+	</test>
+	</suite>

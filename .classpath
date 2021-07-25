@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/new selenium/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/new selenium/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/new selenium/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/new selenium/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/new selenium/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/new selenium/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/new selenium/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/base-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/checker-qual-3.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/elemental2-promise-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/error_prone_annotations-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/extentreports-3.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/guava-29.0-jre.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/guava-30.1.1-jre.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/guava-gwt-30.1.1-jre.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/jsinterop-annotations-2.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/latest jar files/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

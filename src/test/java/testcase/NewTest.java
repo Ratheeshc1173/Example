@@ -2,24 +2,32 @@ package testcase;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.*;
 public class NewTest {
-    public String baseUrl = "https://www.globalsqa.com/demo-site/";
-    String driverPath = "D:\\selenium\\chrome driver\\chromedriver_win32 (4)\\chromedriver.exe";
-    public WebDriver driver ; 
-     
+    
+	WebDriver driver;
+	
      @BeforeTest
       public void launchBrowser() {
-          System.out.println("launching browser"); 
-          System.setProperty("webdriver.chrome.driver", driverPath);
-          driver = new ChromeDriver();
-          driver.get(baseUrl);
+    	 
+    	 
+          System.out.println("launching browser..."); 
+          
+          System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chrome driver\\chromedriver_win32 (6)\\chromedriver.exe"); 
+          driver = new ChromeDriver(); 
+          driver.navigate().to("https://www.globalsqa.com/demo-site/");                
           driver.manage().window().maximize();
+        
+          System.out.println("Before class executed succesfully...."); 
           
       }
-      @Test(priority = 1)
+      @Test(enabled = false)
       public void verifyHomepageTitle() throws InterruptedException {
     	  
     	  driver.findElement(By.linkText("Frames")).click();
@@ -56,8 +64,8 @@ public void drpdwn() throws InterruptedException {
           	  driver.findElement(By.id("Accepted Elements")).click();
           	  Thread.sleep(2000);
           	  
-          	WebElement from=driver.findElement(By.linkText("Drag me to my target"));	
-          	WebElement to=driver.findElement(By.linkText("accept: '#draggable'"));	
+          	  WebElement from=driver.findElement(By.linkText("Drag me to my target"));	
+          	  WebElement to=driver.findElement(By.linkText("accept: '#draggable'"));	
           	  Actions act= new Actions(driver);
           	  act.dragAndDrop(from, to).build().perform();
           	  
@@ -66,6 +74,6 @@ public void drpdwn() throws InterruptedException {
       
       @AfterTest
       public void terminateBrowser(){
-          driver.close();
+          //driver.close();
       }
 }

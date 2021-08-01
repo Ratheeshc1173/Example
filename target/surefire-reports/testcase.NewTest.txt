@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testcase.NewTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.783 sec <<< FAILURE! - in testcase.NewTest
-verifyHomepageTitle(testcase.NewTest)  Time elapsed: 2.703 sec  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a href="https://www.globalsqa.com/demo-site/frames-and-windows/" class="button tiny_button button_pale regular_text">...</a> is not clickable at point (644, 625). Other element would receive the click: <iframe id="aswift_1" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210720/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-2878895907861435&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" allow="conversion-measurement" style="display: block; margin: 0px auto;" data-google-container-id="a!2" data-google-query-id="CIqK2vrg_fECFRGmaAodT4IAYw" data-load-complete="true"></iframe>
-  (Session info: chrome=91.0.4472.164)
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-U63N6IR', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18fb55d5130c6a23ed08f6721a7ce77b
-	at testcase.NewTest.verifyHomepageTitle(NewTest.java:25)
-
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 64.783 sec - in testcase.NewTest
